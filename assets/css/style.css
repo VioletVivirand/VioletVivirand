@@ -325,7 +325,7 @@ ul.list-check li::before {
 
 
 #home {
-	background: url(../images/home-bg.jpg) no-repeat center center;
+	background: url(../images/home2.jpg) no-repeat center center;
 	-webkit-background-attachment: fixed;
     background-attachment: fixed;
 	background-color: #222;
@@ -601,7 +601,7 @@ SOCIAL ICON
 
 .myphoto{
     position: relative;
-    /*background: url(../../assets/images/photo-frame.png) bottom center no-repeat;*/
+    background: url(../../assets/images/photo-frame.png) bottom center no-repeat;
     background-size: contain;
 }
 
@@ -1437,7 +1437,7 @@ Icon for all respective meta
 
 /* === Hire Section === */
 .hire-section {
-    background: url(../../assets/images/hire-bg-02.jpg) no-repeat top center #68C3A3;
+    background: url(../../assets/images/hire-bg.jpg) no-repeat top center #68C3A3;
     background-attachment: fixed;
     background-size: cover;
     color: #fff;  
@@ -1812,63 +1812,3 @@ Icon for all respective meta
     padding: 5px;
     box-shadow: 0 0px 0px 1px #eee;
 }
-
-/*Other Customs*/
-/* Make Unorderedlist in Timelime Section Show Up*/
-.timeline-body ul {
-    list-style: circle;
-    padding-left: 14px;
-    text-align: left!important;
-}
-
-/* Change the Background Color of Year Tag in Honors Section to "#f7f7f7"*/
-.works-section .posted-date{
-    background-color: #f7f7f7!important;
-}
-
-.timeline-heading {
-    text-align: center!important;
-}
-
-/* Change the Text Align of Year Tag in Honors Section to "Center"*/
-.works-section h3{
-    text-align: center!important;
-}
-
-/* Set 200x200 size to Image of Home Section*/
-#home-img {
-    width: 200px!important;
-    height: 200px!important;
-}
-
-/* Modify Paddings of Home Section Elements*/
-.intro {
-    top: 45%!important;
-}
-
-/* Modify "Mao-Cheng Lee" in Home Section */
-.intro h1 {
-    margin-top: 16px;
-    color: white;
-    font-size: 60px!important;
-}
-
-/* Set the Color of "Analog / Mixed Signal IC" to Blue in Home Section */
-.intro-sub {
-    color: #52b3d9;
-}
-
-/* Set the Color of "Designer" to Green in Home Section */
-.intro-sub span {
-    color: #68c3a3;
-}
-
-/*span#logo-text {
-    padding-top: 15px;
-}*/
-
-/* Set the Paddings of the Text of Logo */
-a.navbar-brand {
-    padding: 18.5px 15px 20px!important;
-}
-
